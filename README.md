@@ -17,7 +17,7 @@ How to Use
 * Click "C" or press Escape to clear all input and reset the calculator.
 * Click "DEL" or press Backspace to delete the last character entered.
 
----
+
  Keyboard Shortcuts
 
  Key                Function 
@@ -29,7 +29,7 @@ How to Use
  Escape         Clear all (C) 
 
 
-✨ Features
+Features
 
 * Basic Arithmetic: Supports addition (+), subtraction (-), multiplication (*), and division (/).
 * Power Function: Use the ^ symbol for exponentiation (e.g., `2^3 = 8`).
