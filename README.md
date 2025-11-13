@@ -18,15 +18,17 @@ How to Use
 * Click "DEL" or press Backspace to delete the last character entered.
 
 
- Keyboard Shortcuts
+------------------------------------------------------------
+Keyboard Shortcuts
+------------------------------------------------------------
 
- Key                Function 
- 
- 0–9            Enter numbers 
- + - \* / ^     Operators 
- Enter          Calculate result (=) 
- Backspace      Delete last entry (DEL) 
- Escape         Clear all (C) 
+Key           | Function
+--------------------------------------------
+0–9           | Enter numbers
++ - * / ^     | Operators
+Enter         | Calculate result (=)
+Backspace     | Delete last entry (DEL)
+Escape        | Clear all (C)
 
 
 Features
