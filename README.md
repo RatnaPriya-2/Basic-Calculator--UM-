@@ -1,65 +1,91 @@
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-⭐ CALCULATOR WEB APP ⭐
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BASIC CALCULATOR WEB APP
 
-This is a simple, fully functional Calculator Web App built using HTML, CSS, and JavaScript (ES6).
-It performs all basic arithmetic operations and includes features like exponentiation, robust keyboard input, and proper error handling.
+This is a simple Calculator Web App built using HTML, CSS, and JavaScript (ES6).
 
-How to Use
+It performs basic arithmetic operations and includes features like exponent (^), keyboard input, and error handling.
 
-Launch the Calculator
-➜ Open the index.html file in any modern web browser (e.g., Chrome, Edge, Firefox).
+HOW TO USE
 
-Enter Numbers and Operations
-➜ Click the buttons using your mouse, or
-➜ Use your keyboard to type numbers and operators.
-➜ The current input will appear in the display box.
+→ Launch the Calculator
+
+→ Open the index.html file in any browser (Chrome, Edge, Firefox).
+
+→ Enter Numbers and Operations
+
+→ Click buttons using your mouse, or
+
+→ Use your keyboard to type numbers and operators (+, -, *, /, ^).
+
+→ The input appears in the display box.
 
 Perform Operations
-➜ Click the "=" button or press Enter to calculate the result.
-➜ Click "C" or press Escape to clear all input and reset the calculator.
-➜ Click "DEL" or press Backspace to delete the last character entered.
 
-Keyboard Shortcuts
+→ Click "=" or press Enter to calculate.
 
-➜ 0–9 – Enter numbers
-➜ + - * / ^ – Operators
-➜ Enter – Calculate result (=)
-➜ Backspace – Delete last entry (DEL)
-➜ Escape – Clear all (C)
+→ Click "C" or press Escape to clear all.
 
-Features
+→ Click "DEL" or press Backspace to delete the last entry.
 
-➜ Basic Arithmetic – Supports addition (+), subtraction (−), multiplication (*), and division (/).
-➜ Power Function – Use the ^ symbol for exponentiation (e.g., 2^3 = 8).
-➜ Keyboard Input – Works seamlessly with standard keyboard keys.
-➜ Smart Delete & Clear – DEL removes the last character or clears the result after a calculation is performed.
-➜ Read-only Display – Prevents direct manual typing into the input box for controlled operation.
-➜ Formatted Output – Decimals are rounded to two places when necessary.
+KEYBOARD SHORTCUTS
 
-Input Validation and Error Handling
+0–9 : Enter numbers
 
-➜ Prevents Invalid Input:
- • Cannot start an expression with an operator (except decimal).
- • Prevents multiple operators in a row.
- • Allows only one decimal (.) per number.
++,-,*,/,^ : Operators
 
-➜ Error Handling – Displays “Error” for invalid expressions (e.g., 5+*2, expressions ending with an operator like 5+, or results that yield Infinity or NaN).
-➜ Decimal Handling – Entering "." as the first character automatically converts it to "0.".
+Enter : Calculate result (=)
 
-Example Calculations
+Backspace : Delete last entry (DEL)
 
-➜ 5 + 3 = 8 (Basic addition)
-➜ 10 / 2 = 5 (Division)
-➜ 2 ^ 4 = 16 (Power function)
-➜ 5.2 + 3.1 = 8.3 (Decimal handling)
-➜ 7 / 0 = Error (Division by zero handled)
+Escape : Clear all (C)
 
-Developer Notes
+FEATURES
 
-This project demonstrates several core concepts in web development:
+→ Basic arithmetic (+, -, *, /)
 
-➜ DOM manipulation
-➜ Event listeners for both mouse and keyboard input
-➜ Safe expression evaluation (to prevent security risks)
-➜ Clean and readable JavaScript logic
+→ Power function using ^ (example: 2^3 = 8)
+
+→ Works with mouse and keyboard input
+
+→ Smart delete and clear system
+
+→ Prevents invalid inputs (like 5+*2 or 7/0)
+
+→ One decimal allowed per number
+
+→ Automatically converts "." to "0." if entered first
+
+→ Rounds decimal results to two places
+
+→ Shows "Error" for invalid expressions or division by zero
+
+EXAMPLE CALCULATIONS
+
+5 + 3 = 8
+
+10 / 2 = 5
+
+2 ^ 4 = 16
+
+5.2 + 3.1 = 8.3
+
+7 / 0 = Error
+
+TECHNOLOGIES USED
+
+→ HTML5 – Structure
+
+→ CSS3 – Styling and layout
+
+→ JavaScript (ES6) – Logic and event handling
+
+DEVELOPER NOTES
+
+This project demonstrates:
+
+→ DOM manipulation
+
+→ Event handling for both mouse and keyboard
+
+→ Safe expression evaluation
+
+→ Clean and readable JavaScript code
