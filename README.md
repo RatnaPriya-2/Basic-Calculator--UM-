@@ -1,85 +1,65 @@
-🧮 Calculator App
+Calculator Web App
 
-This is a simple, fully functional Calculator Web App built using HTML, CSS, and JavaScript.
-It performs all basic arithmetic operations and includes additional features such as exponent (^) support, keyboard input, and proper error handling.
+This is a simple, fully functional Calculator Web App built using HTML, CSS, and JavaScript (ES6). It performs all basic arithmetic operations and includes features like exponentiation, robust keyboard input, and proper error handling.
 
-📖 How to Use
+How to Use
 
-Launch the Calculator
-Open the HTML file in any modern browser (Chrome, Edge, Firefox, etc.).
+1. Launch the Calculator
+* Open the `index.html` file in any modern web browser (e.g., Chrome, Edge, Firefox).
 
-Enter Numbers and Operations
+2. Enter Numbers and Operations
+* Click the buttons using your mouse, or
+* Use your keyboard to type numbers and operators.
+* The current input will appear in the display box.
 
-Click the buttons using your mouse or use your keyboard to type numbers and operators (+, -, *, /, ^).
+3. Perform Operations
+* Click the "=" button or press Enter to calculate the result.
+* Click "C" or press Escape to clear all input and reset the calculator.
+* Click "DEL" or press Backspace to delete the last character entered.
 
-The current input appears in the display box.
+---
+ Keyboard Shortcuts
 
-Perform Operations
+ Key                Function 
+ 
+ 0–9            Enter numbers 
+ + - \* / ^     Operators 
+ Enter          Calculate result (=) 
+ Backspace      Delete last entry (DEL) 
+ Escape         Clear all (C) 
 
-Click = or press Enter to calculate the result.
 
-Use C to clear all input.
+✨ Features
 
-Use DEL or press Backspace to delete the last character.
+* Basic Arithmetic: Supports addition (+), subtraction (-), multiplication (*), and division (/).
+* Power Function: Use the ^ symbol for exponentiation (e.g., `2^3 = 8`).
+* Keyboard Input: Works seamlessly with standard keyboard keys.
+* Smart Delete & Clear: `DEL` removes the last character or clears the result after a calculation is performed.
+* Read-only Display: Prevents direct manual typing into the input box for controlled operation.
+* Formatted Output: Decimals are rounded to two places when necessary.
 
-Keyboard Shortcuts
+Input Validation and Error Handling
 
-Key	Function
-0–9	Enter numbers
-+ - * / ^	Operators
-Enter	Calculate result (=)
-Backspace	Delete last entry
-Escape	Clear all (C)
-⚙️ Features
+* Prevents Invalid Input:
+    * Cannot start an expression with an operator (except decimal).
+    * Prevents multiple operators in a row.
+    * Allows only one decimal (`.`) per number.
+* Error Handling: Displays "Error" for invalid expressions (e.g., `5+*2`, expressions ending with an operator like `5+`, or results that yield `Infinity` or `NaN`).
+* Decimal Handling: Entering `.` as the first character automatically converts it to "0.".
 
-✅ Basic Arithmetic — Supports addition, subtraction, multiplication, and division.
-✅ Power Function — Use ^ for exponentiation (e.g., 2^3 = 8).
-✅ Prevents Invalid Input
+Example Calculations
 
-No starting with an operator (except decimal)
+* 5 + 3 = 8 (Basic addition)
+* 10 / 2 = 5 (Division)
+* 2 ^ 4 = 16 (Power function)
+* 5.2 + 3.1 = 8.3 (Decimal handling)
+* 7 / 0 = Error (Division by zero handled)
 
-No multiple operators in a row
+Developer Notes
 
-Only one decimal (.) per number
-✅ Error Handling
+This project demonstrates several core concepts in web development:
 
-Displays "Error" for invalid expressions (like 5+*2 or 7/0).
-✅ Keyboard Input Support — Works seamlessly with your keyboard.
-✅ Smart Delete and Clear — DEL removes the last character or clears result after calculation.
-✅ Formatted Output — Rounds decimals to two places when necessary.
-✅ Read-only Display — Prevents typing directly into the input box.
-
-🧠 Example Calculations
-Expression	Result	Note
-5+3	8	Basic addition
-10/2	5	Division
-2^4	16	Power function
-5.2+3.1	8.3	Decimal handling
-7/0	Error	Division by zero handled
-💡 Additional Notes
-
-If you enter . as the first character, it automatically converts it to 0.
-
-Expressions ending with an operator (like 5+) will show "Error".
-
-Infinity and invalid results are replaced with "Error".
-
-🧾 Technologies Used
-
-HTML5 — Structure
-
-CSS3 — Styling and layout
-
-JavaScript (ES6) — Calculator logic, event handling, and input validation
-
-👩‍💻 Developer Notes
-
-This project was built to demonstrate:
-
-DOM manipulation
-
-Event listeners for both mouse and keyboard
-
-Safe expression evaluation
-
-Clean and readable JavaScript logic
+* DOM manipulation
+* Event listeners for both mouse and keyboard input
+* Safe expression evaluation (to prevent security risks)
+* Clean and readable JavaScript logic
